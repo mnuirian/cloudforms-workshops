@@ -11,4 +11,6 @@ html_title: Workshops
 
 ### [Lab: Login and a Tour of CloudForms 4.1](workshop-lab-1.html)
 
+### [Lab: Explore Infrastructure Providers](workshop-lab-2.html)
+
 ### [Fin.](workshop-finally.html)

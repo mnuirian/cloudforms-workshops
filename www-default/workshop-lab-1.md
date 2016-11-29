@@ -4,6 +4,7 @@ title: A Guided Tour of CloudForms
 subtitle: Welcome to CloudForms
 html_title: Welcome to CloudForms
 categories: [lab, intro, welcome, developers, ops]
+next: workshop-lab-2.html
 previous: workshop-lab-0.html
 ---
 
