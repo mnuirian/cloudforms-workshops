@@ -20,3 +20,6 @@ site/_site/
 test/dest
 tmp/*
 node_modules
+REGION
+v2_key
+vmdb_production_latest.dump
