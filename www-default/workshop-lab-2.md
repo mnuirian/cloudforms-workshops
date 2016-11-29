@@ -20,18 +20,6 @@ In Red Hat CloudForms, an infrastructure provider is a virtual infrastructure en
 
 A list of your datacenter infrastructure providers appears, such as VMware vCenter and Red Hat Enterprise Virtualization.
 
-The web interface uses virtual thumbnails to represent providers. Each thumbnail contains four quadrants by default, which display basic information about each provider.
-
-> Example CloudForms Virtual Thumbnail.
-
-<img alt="CloudForms Virtual Thumbnail" src="{{ site.baseurl }}/www-default/screenshots/cfme-virt-thumbnail.png"/><br/>
-*Virtual Thumbnail*
-
-1. Number of hosts
-2. Management system software
-3. Currently unused
-4. Authentication status
-
 ### Discover New Infrastructure Providers
 
 In very large environments, you can discover new infrastructure providers.
@@ -47,3 +35,25 @@ Review the data entry screen, but do not enter any information.
 
 <img alt="CloudForms Discover Infrastructure Providers Cancel" src="{{ site.baseurl }}/www-default/screenshots/cfme-nav-discover-infra-providers-cancel.png"/><br/>
 *Cancel Discovery*
+
+You can also add infrastructure providers, if known.
+
+> Click <i class="fa fa-cog" aria-hidden="true"></i> (**Configuration**), then click <i class="fa fa-plus-circle" aria-hidden="true"></i> (**Add**).
+
+Review the data entry screen, but do not enter any information.
+
+>  Click 'Cancel' to return to the previous screen.
+
+### Explore the Virtual Thumbnail for the infrastructure providers
+
+The web interface uses virtual thumbnails to represent providers. Each thumbnail contains four quadrants by default, which display basic information about each provider.
+
+> Example CloudForms Virtual Thumbnail.
+
+<img alt="CloudForms Virtual Thumbnail" src="{{ site.baseurl }}/www-default/screenshots/cfme-virt-thumbnail.png"/><br/>
+*Virtual Thumbnail*
+
+1. Number of hosts
+2. Management system software
+3. Currently unused
+4. Authentication status
