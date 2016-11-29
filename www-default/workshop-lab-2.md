@@ -40,3 +40,10 @@ In very large environments, you can discover new infrastructure providers.
 
 <img alt="CloudForms Discover Infrastructure Providers" src="{{ site.baseurl }}/www-default/screenshots/cfme-nav-discover-infra-providers.png"/><br/>
 *Discover Providers*
+
+Review the data entry screen, but do not enter any information.
+
+>  Click 'Cancel' to return to the previous screen.
+
+<img alt="CloudForms Discover Infrastructure Providers Cancel" src="{{ site.baseurl }}/www-default/screenshots/cfme-nav-discover-infra-providers-cancel.png"/><br/>
+*Cancel Discovery*
