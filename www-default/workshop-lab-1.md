@@ -4,12 +4,13 @@ title: A Guided Tour of OpenShift Enterprise
 subtitle: Welcome to OpenShift
 html_title: Welcome to OpenShift
 categories: [lab, intro, welcome, developers, ops]
+previous: workshop-lab-0.html
 ---
 
-## Welcome to Open Shift!
+### Welcome to Open Shift!
 This lab provides a quick tour of the console to help you get familiar with the user interface along with some key terminology we will use in subsequent lab content.  If you are already familiar with the basics of OpenShift you can skip this lab - after making sure you can login.
 
-## Key Terms
+### Key Terms
 We will be using the following terms throughout the workshop labs so here are some basic definitions you should be familiar with.  And you'll learn more terms along the way, but these are the basics to get you started.
 
 * Container - Your software wrapped in a complete filesystem containing everything it needs to run
@@ -24,7 +25,7 @@ We will be using the following terms throughout the workshop labs so here are so
 * Master - The foreman of the OpenShift architecture, the master schedules operations, watches for problems, and orchestrates everything
 * Node - Where the compute happens, your software is run on nodes
 
-## Accessing OpenShift
+### Accessing OpenShift
 OpenShift provides a web console that allow you to perform various tasks via a web browser.  Additionally, you can utilize a command line tool to perfrom tasks.  Let's get started by logging into both of these and checking the status of the platform.
 
 ### Let's Login
@@ -82,7 +83,7 @@ $ oc new-project demo
 $ oc project [NAME]
 {% endhighlight %}
 
-## Help about any command
+### Help about any command
 
 To see the full list of commands supported, run `oc help`.
 
@@ -92,5 +93,5 @@ To see the full list of commands supported, run `oc help`.
 $ oc status -h
 {% endhighlight %}
 
-## Summary
+### Summary
 You should now be ready to get hands-on with our workshop labs.

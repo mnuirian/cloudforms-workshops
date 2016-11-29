@@ -4,6 +4,7 @@ title: Workshop Prerequisites
 subtitle: Make sure you have done the following before starting the workshop labs
 html_title: Prerequisites
 categories: [developers, developers]
+next: workshop-lab-1.html
 ---
 
 ### If we provided you a laptop or Ravello cloud environment for this workshop
