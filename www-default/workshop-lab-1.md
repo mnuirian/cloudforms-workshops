@@ -20,69 +20,34 @@ We will be using the following terms throughout the workshop labs so here are so
 CloudForms provides a web console that allow you to perform various tasks via a web browser. Let's get started by logging into this and checking the status of the platform.
 
 ### Let's Login
-> Navigate to the URI provided by your instructor and login with the user/password provided (if there's an icon on the Desktop, just double click that)
 
-<img alt="OpenShift Console Login" src="{{ site.baseurl }}/www-default/screenshots/ose-login.png" width="600"/><br/>
+In this section, you log in to the CloudForms Management Engine web interface.
+
+> Navigate to the URI provided by your instructor and login with the user/password provided (if there's an icon on the Desktop, just double click that).
+
+:information_source: Accept any warnings regarding the SSL certificate.
+
+<img alt="CloudForms Console Login" src="{{ site.baseurl }}/www-default/screenshots/cfme-login.png" width="600"/><br/>
 *Login Webpage*
 
-Once logged in you should see your available projects.
+Once logged in you should see the **Cloud Intelligence** dashboard. This customized dashboard shows four (or more) widgets.
 
-An OpenShift project allows a community of users (or a user) to organize and manage their content in isolation from other communities. Each project has its own resources, policies (who can or cannot perform actions), and constraints (quotas and limits on resources, etc). Projects act as a "wrapper" around all the application services and endpoints you (or your teams) are using for your work.
+<img alt="CloudForms Cloud Intelligence Dashboard" src="{{ site.baseurl }}/www-default/screenshots/cfme-cloud-intel-dashboard.png" width="600"/><br/>
+*Cloud Intel Dashboard*
 
-Users must be given access to projects by administrators, or if allowed to create projects, automatically have access to their own projects.
+### Explore Cloud Intel Dashboard
 
-Projects can have a separate **name**, **displayName**, and **description**.
+Go ahead and explore the data in each of the widgets:
+- Vendor and Guest OS Chart
+- Guest OS Information
+- Virtual Infrastructure Platforms
+- CloudForms Status
 
-- The mandatory **name** is a unique identifier for the project and is most visible when using the CLI tools or API.
-- The optional **displayName** is how the project is displayed in the web console (defaults to name).
-- The optional **description** can be a more detailed description of the project and is also visible in the web console.
+Feel free to zoom in, download, open in a new window, minimize, and then minimize it in the dashboard (you also can remove the data from the dashboard, but do not do this now).
 
-:thought_balloon: A project is technically a Kubernetes namespace with additional annotations.
+To return to this screen, select Cloud Intel → Dashboard.
 
-### So this is what an empty project looks like
-> Click on one of the projects from the project list
-
-Don't worry, it's supposed to look empty right now because you currently don't have anything in your project.  We'll fix that in the next lab.
-
-:information_source: If you do not see an available project, go ahead and click `New Project` and create one.
-
-### Let's try the command line
-> <i class="fa fa-terminal"></i> Open a terminal and login using the same URI/user/password with following command:
-
-{% highlight csh %}
-$ oc login [URI] --insecure-skip-tls-verify=false
-{% endhighlight %}
-
-> <i class="fa fa-terminal"></i> Check to see what projects you have access to:
-
-{% highlight csh %}
-$ oc get projects
-{% endhighlight %}
-
-### It looks empty via the command line too
-> <i class="fa fa-terminal"></i> Type the following command to use the demo project (replace 'demo' with the project you want to use if there isn't a demo project):
-
-{% highlight csh %}
-$ oc new-project demo
-{% endhighlight %}
-
-:information_source: You may recieve the message "Error from server: project "demo" already exists". Try another project name i.e. your first initial and lastname.
-
-> <i class="fa fa-terminal"></i> If you create more than one project, then you can switch projects with the following command:
-
-{% highlight csh %}
-$ oc project [NAME]
-{% endhighlight %}
-
-### Help about any command
-
-To see the full list of commands supported, run `oc help`.
-
-> <i class="fa fa-terminal"></i> Type the following command to read more information about services, deployment configs, build configurations, and active deployments:
-
-{% highlight csh %}
-$ oc status -h
-{% endhighlight %}
+Lastly, experiment with dragging widgets to tailor the view.
 
 ### Summary
 You should now be ready to get hands-on with our workshop labs.
