@@ -1,3 +1,24 @@
-This is the dist-git repo for cloudforms-workshops.
+# Overview
+Dockerizing CloudForms 4.1 (CFME) for building CloudForms demos.
+Based on registry.access.redhat.com/cloudforms/cfme4:latest, adds database dump
+from the environment in the MBU lab.
 
-The master branch is unused. Use an existing branch instead.
+# Prerequisites
+[TODO]
+
+# Usage
+[TODO]
+
+# Credentials
+[TODO]
+
+# Networking
+[TODO]
+
+# Resources
+CloudForms as a Container: http://red.ht/2ghjfl0
+
+# Authors
+Kyle Benson
+Michael Surbey
+Jerome Marc
