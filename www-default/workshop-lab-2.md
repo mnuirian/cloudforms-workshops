@@ -31,3 +31,12 @@ The web interface uses virtual thumbnails to represent providers. Each thumbnail
 2. Management system software
 3. Currently unused
 4. Authentication status
+
+### Discover New Infrastructure Providers
+
+In very large environments, you can discover new infrastructure providers.
+
+> Click <i class="fa fa-cog" aria-hidden="true"></i> (**Configuration**), then click <i class="fa fa-search" aria-hidden="true"></i> (**Discover**).
+
+<img alt="CloudForms Discover Infrastructure Providers" src="{{ site.baseurl }}/www-default/screenshots/cfme-nav-discover-infra-providers.png"/><br/>
+*Discover Providers*
