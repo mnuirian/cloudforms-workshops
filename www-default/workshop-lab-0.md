@@ -1,6 +1,6 @@
 ---
 layout: lab
-title: Workshop Prerequisites
+title: CloudForms Workshop Prerequisites
 subtitle: Make sure you have done the following before starting the workshop labs
 html_title: Prerequisites
 categories: [developers, developers]

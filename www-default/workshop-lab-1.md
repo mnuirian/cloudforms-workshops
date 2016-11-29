@@ -1,32 +1,23 @@
 ---
 layout: lab
-title: A Guided Tour of OpenShift Enterprise
-subtitle: Welcome to OpenShift
-html_title: Welcome to OpenShift
+title: A Guided Tour of CloudForms
+subtitle: Welcome to CloudForms
+html_title: Welcome to CloudForms
 categories: [lab, intro, welcome, developers, ops]
 previous: workshop-lab-0.html
 ---
 
-### Welcome to Open Shift!
-This lab provides a quick tour of the console to help you get familiar with the user interface along with some key terminology we will use in subsequent lab content.  If you are already familiar with the basics of OpenShift you can skip this lab - after making sure you can login.
+### Welcome to CloudForms
+This lab provides a quick tour of the console to help you get familiar with the user interface along with some key terminology we will use in subsequent lab content.  If you are already familiar with the basics of CloudForms you can skip this lab — after making sure you can login.
 
 ### Key Terms
 We will be using the following terms throughout the workshop labs so here are some basic definitions you should be familiar with.  And you'll learn more terms along the way, but these are the basics to get you started.
 
 * Container - Your software wrapped in a complete filesystem containing everything it needs to run
 * Image - We are talking about Docker images; read-only and used to create containers
-* Pod - One or more docker containers that run together
-* Service - Provides a common DNS name to access a pod (or replicated set of pods)
-* Project - A project is a group of services that are related logically (for this workshop we have setup your account to have access to just a single project)
-* Deployment - an update to your application triggered by a image change or config change
-* Build - The process of turning your source code into a runnable image
-* BuildConfig - configuration data that determines how to manage your build
-* Route - a labeled and DNS mapped network path to a service from outside OpenShift
-* Master - The foreman of the OpenShift architecture, the master schedules operations, watches for problems, and orchestrates everything
-* Node - Where the compute happens, your software is run on nodes
 
-### Accessing OpenShift
-OpenShift provides a web console that allow you to perform various tasks via a web browser.  Additionally, you can utilize a command line tool to perfrom tasks.  Let's get started by logging into both of these and checking the status of the platform.
+### Accessing CloudForms
+CloudForms provides a web console that allow you to perform various tasks via a web browser. Let's get started by logging into this and checking the status of the platform.
 
 ### Let's Login
 > Navigate to the URI provided by your instructor and login with the user/password provided (if there's an icon on the Desktop, just double click that)
