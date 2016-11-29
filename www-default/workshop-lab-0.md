@@ -7,7 +7,7 @@ categories: [developers, developers]
 next: workshop-lab-1.html
 ---
 
-### If we provided you a laptop or Ravello cloud environment for this workshop
+### If we provided you a laptop or cloud environment for this workshop
 :warning: We already set all this up for you — so you can skip everything below!
 
 
