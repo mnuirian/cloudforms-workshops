@@ -44,7 +44,7 @@ Review the data entry screen, but do not enter any information.
 
 >  Click 'Cancel' to return to the previous screen.
 
-### Explore the Virtual Thumbnail for the infrastructure providers
+### Explore the Virtual Thumbnail for Infrastructure Providers
 
 The web interface uses virtual thumbnails to represent providers. Each thumbnail contains four quadrants by default, which display basic information about each provider.
 
