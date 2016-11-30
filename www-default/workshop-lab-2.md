@@ -133,10 +133,10 @@ Click <i class="fa fa-download" aria-hidden="true"></i> (**Download**) to downlo
 
 **[INSERT_IMAGE_HERE]**
 
-* The **Properties** section displays detailed information about the host.
-* Observe these parts of the **Properties** details to see how this host relates to its resources in the provider:
+1. The **Properties** section displays detailed information about the host.
+2. Observe these parts of the **Properties** details to see how this host relates to its resources in the provider:
   * The **Compliance** section shows whether the host is compliant with its applied policies.
   * The **Smart Management** section shows that this provider is tagged as existing at a specific location, as well as its provisioning scope.
   * The **Authentication** status section shows whether or not CloudForms can log in to the host.
-* The **Security** section lists users, groups, patches, firewall rules, and other operating system security-related information.
-* The **Configuration** section lists packages, services, and other operating system configuration-related information.
+3. The **Security** section lists users, groups, patches, firewall rules, and other operating system security-related information.
+4. The **Configuration** section lists packages, services, and other operating system configuration-related information.
