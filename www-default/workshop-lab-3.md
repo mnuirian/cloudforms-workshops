@@ -60,7 +60,7 @@ In the top right corner of the window, click <i class="fa fa-th" aria-hidden="tr
 
 Click <i class="fa fa-download" aria-hidden="true"></i> (**Download**) to download a list of hosts.
 
-> Select the infrastructure host named `esxi3` with VMware and 20 VMs, and observe the following details on the resulting screen:
+Select the infrastructure host named `esxi3` with VMware and 20 VMs, and observe the following details on the resulting screen:
 
 **[INSERT_IMAGE_HERE]**
 
