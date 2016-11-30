@@ -72,7 +72,8 @@ In the top right corner of the window, click **[INSERT_IMAGE_HERE]** to toggle b
 Click **[INSERT_IMAGE_HERE]** (**Download**) for a list of providers in TXT, CSV, or PDF formats.
 
 Click any infrastructure provider and observe the following details on the resulting screen:
-* The **Properties** section lists the aggregate host resources for the provider.
-* CloudForms can communicate with the provider in the **Authentication Status** section.
-* The **Relationships** section lists related clusters, hosts, datastores, VMs, and templates for this provider. Click these relationships to see the type of information CloudForms gathers from a provider.
-* The **Smart Management** section shows if this provider has any smart tags applied. You learn more about smart tagging later in the lab.
+1. The **Properties** section lists the aggregate host resources for the provider.
+2. CloudForms can communicate with the provider in the **Authentication Status** section.
+3. The **Relationships** section lists related clusters, hosts, datastores, VMs, and templates for this provider.
+  * Click these relationships to see the type of information CloudForms gathers from a provider.
+4. The **Smart Management** section shows if this provider has any smart tags applied. You learn more about smart tagging later in the lab.
