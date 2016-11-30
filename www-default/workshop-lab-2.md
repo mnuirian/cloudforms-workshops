@@ -72,6 +72,9 @@ In the top right corner of the window, click **[INSERT_IMAGE_HERE]** to toggle b
 Click **[INSERT_IMAGE_HERE]** (**Download**) for a list of providers in TXT, CSV, or PDF formats.
 
 Click any infrastructure provider and observe the following details on the resulting screen:
+
+ **[INSERT_IMAGE_HERE]**
+
 1. The **Properties** section lists the aggregate host resources for the provider.
 2. CloudForms can communicate with the provider in the **Authentication Status** section.
 3. The **Relationships** section lists related clusters, hosts, datastores, VMs, and templates for this provider.
