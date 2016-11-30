@@ -1,17 +1,17 @@
 
 # Site settings
 title: OpenShift Workshops
-maintainer: Michael Surbey
-vocation: Cloud Solutions Architect
-email: msurbey@redhat.com
+maintainer: MSM Nuiriankh
+vocation: Senior Solutions Architect
+email: mnuirian@redhat.com
 description: > # this means to ignore newlines until "baseurl:"
   Create, discover, and access content for your CloudForms instance
   by Red Hat.
 baseurl: "/cloudforms-workshops" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 # workshop-dir: www-offline
-twitter_username: ecwpz91
-github_username:  ecwpz91
+twitter_username: 
+github_username:  mnuirian
 
 # Build settings
 markdown: kramdown
